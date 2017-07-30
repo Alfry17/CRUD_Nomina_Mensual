@@ -43,108 +43,126 @@ namespace NominaMensual
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-
+            /*
             //codigo para saltar de un TexBox a otro//
             SendKeys.Send("{TAB}");
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Shift)
             {
                 e.Handled = true;          
             }
+            */
         }
 
         private void textBox2_KeyDown(object sender, KeyEventArgs e)
         {
-
+            /*
             //codigo para saltar de un TexBox a otro//
             SendKeys.Send("{TAB}");
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Shift)
             {
-                e.Handled = true;
-                SendKeys.Send("{TAB}");
+                e.Handled = true;          
             }
+            */
         }
 
         private void textBox3_KeyDown(object sender, KeyEventArgs e)
         {
-
+            /*
             //codigo para saltar de un TexBox a otro//
             SendKeys.Send("{TAB}");
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Shift)
             {
-                e.Handled = true;
-                SendKeys.Send("{TAB}");
+                e.Handled = true;          
             }
+            */
         }
 
         private void textBox6_KeyDown(object sender, KeyEventArgs e)
         {
 
-            //codigo para saltar de un TexBox a otro//
-            SendKeys.Send("{TAB}");
-            if (e.KeyCode == Keys.Enter)
-            {
-                e.Handled = true;
+            /*
+                //codigo para saltar de un TexBox a otro//
                 SendKeys.Send("{TAB}");
-            }
+                if (e.KeyCode == Keys.Shift)
+                {
+                    e.Handled = true;          
+                }
+                */
         }
 
         private void textBox5_KeyDown(object sender, KeyEventArgs e)
         {
 
+            /*
             //codigo para saltar de un TexBox a otro//
             SendKeys.Send("{TAB}");
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Shift)
             {
-                e.Handled = true;
-                SendKeys.Send("{TAB}");
+                e.Handled = true;          
             }
+            */
         }
 
         private void textBox4_KeyDown(object sender, KeyEventArgs e)
         {
-            //codigo para saltar de un TexBox a otro//
-            SendKeys.Send("{TAB}");
-
-            if (e.KeyCode == Keys.Enter)
-            {
-                e.Handled = true;
-                SendKeys.Send("{TAB}");
-            }
+            /*
+                 //codigo para saltar de un TexBox a otro//
+                 SendKeys.Send("{TAB}");
+                 if (e.KeyCode == Keys.Shift)
+                 {
+                     e.Handled = true;          
+                 }
+                 */
         }
 
         private void textBox7_KeyDown(object sender, KeyEventArgs e)
         {
-
+            /*
             //codigo para saltar de un TexBox a otro//
             SendKeys.Send("{TAB}");
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Shift)
             {
-                e.Handled = true;
-                SendKeys.Send("{TAB}");
+                e.Handled = true;          
             }
+            */
+
         }
 
         private void textBox9_KeyDown(object sender, KeyEventArgs e)
         {
+            /*
+            //codigo para saltar de un TexBox a otro//
+            SendKeys.Send("{TAB}");
+            if (e.KeyCode == Keys.Shift)
+            {
+                e.Handled = true;          
+            }
+            */
 
-           
         }
 
         private void textBox8_KeyDown(object sender, KeyEventArgs e)
         {
+            /*
+            //codigo para saltar de un TexBox a otro//
+            SendKeys.Send("{TAB}");
+            if (e.KeyCode == Keys.Shift)
+            {
+                e.Handled = true;          
+            }
+            */
 
-           
         }
 
         private void txt7_KeyDown(object sender, KeyEventArgs e)
         {
-
+            /*
             //codigo para saltar de un TexBox a otro//
             if (e.KeyCode == Keys.Enter)
             {
                 e.Handled = true;
                 SendKeys.Send("{TAB}");
-            }
+            }*/
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -291,6 +309,7 @@ namespace NominaMensual
             try
             {
                 //Borra solo numero por numero//
+                txtID.Text = "";
                 txt1.Text = "";
                 txt2.Text = "";
                 txt3.Text = "";

@@ -236,6 +236,7 @@
             this.btnC.TabIndex = 61;
             this.btnC.Text = "Cabecera Nomina";
             this.btnC.UseVisualStyleBackColor = true;
+            this.btnC.Click += new System.EventHandler(this.btnC_Click);
             // 
             // btnD
             // 
@@ -245,6 +246,7 @@
             this.btnD.TabIndex = 60;
             this.btnD.Text = "Detalle Nomina";
             this.btnD.UseVisualStyleBackColor = true;
+            this.btnD.Click += new System.EventHandler(this.btnD_Click);
             // 
             // btnB
             // 

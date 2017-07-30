@@ -34,21 +34,8 @@ namespace NominaMensual
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (txtCod_cargo.Text != null)
-                {
-                    //Condiocion de boorar de la de la base de dato//
-                    Operaciones op = new Operaciones();
-                    op.ConsultasinResultado("DELETE from empleados WHERE cod_empleado = " + txtCod_cargo.Text);
-
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-           
+            txtCa.Text = "";
+            txtCarg.Text = "";
         }
 
         private void btnCrear_Click(object sender, EventArgs e)
@@ -64,6 +51,12 @@ namespace NominaMensual
                 MessageBox.Show(ex.Message);
             }
           
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //cerrar formulario//
+            this.Close();
         }
     }
 }

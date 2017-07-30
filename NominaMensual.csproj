@@ -103,6 +103,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cabecera No.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cabecera No.Designer.cs">
+      <DependentUpon>Cabecera No.cs</DependentUpon>
+    </Compile>
     <Compile Include="Calculadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,12 @@
     </Compile>
     <Compile Include="CargoEmpleado.Designer.cs">
       <DependentUpon>CargoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Detalle No.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detalle No.Designer.cs">
+      <DependentUpon>Detalle No.cs</DependentUpon>
     </Compile>
     <Compile Include="empleado.cs">
       <SubType>Form</SubType>
@@ -130,11 +142,17 @@
     <Compile Include="Operaciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cabecera No.resx">
+      <DependentUpon>Cabecera No.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CargoEmpleado.resx">
       <DependentUpon>CargoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalle No.resx">
+      <DependentUpon>Detalle No.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="empleado.resx">
       <DependentUpon>empleado.cs</DependentUpon>

@@ -271,6 +271,18 @@ namespace NominaMensual
             }
             
         }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Cabecera_No();
+            formulario.Show();
+        }
+
+        private void btnD_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Detalle_No();
+            formulario.Show();
+        }
     }
 
  }
